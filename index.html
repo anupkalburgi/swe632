@@ -8,13 +8,13 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="assets/ico/favicon.ico">
 
-    <title>Book Rating for Technical Books</title>
+    <title>Book Rating for Technical ooks</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="icons/font-mfizz/font-mfizz.css">
     <link href="rating/rateit/src/rateit.css" rel="stylesheet" type="text/css">
-
+    <link rel="stylesheet" href="css/navbar/input.css">
 
     <!-- Custom styles for this template -->
     <link href="css/navbar-fixed-top.css" rel="stylesheet">
@@ -31,29 +31,30 @@
 <body data-spy="scroll" data-target="#sidebar">
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <!-- You'll want to use a responsive image option so this logo looks good on devices - I recommend using something like retina.js (do a quick Google search for it and you'll find it) -->
-                <a class="navbar-brand logo-nav" href="index.php">
+            
+                <a class="navbar-brand" href="#">
                     <img src="assets/oie_transparent.png">
                 </a>
+        
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#contact">Anup Kalburgi</a></li>
+          </ul>
+            <div class = "navbar nav-center">
+            <form class="search" method="post" action="index.html" >
+              <input type="text" name="q" placeholder="Search..." />
+                 <ul class="results" >
+                <li><a href="index.html">Search Result #1<br /><span>Description...</span></a></li>
+                <li><a href="index.html">Search Result #2<br /><span>Description...</span></a></li>
+                <li><a href="index.html">Search Result #3<br /><span>Description...</span></a></li>
+                <li><a href="index.html">Search Result #4</a></li>
+                  </ul>
+            </form>
             </div>
 
+
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#about">About</a>
-                    </li>
-                    <li><a href="#services">Services</a>
-                    </li>
-                    <li><a href="#contact">Contact</a>
-                    </li>
-                </ul>
+            <div class="navbar-collapse navbar-ex1-collapse">
+
             </div>
             <!-- /.navbar-collapse -->
         </div>
@@ -70,7 +71,7 @@
                   <i class="icon-google-code"></i >
                   Programming</a></li>
                   <li>
-                  <a href="#sec1"> 
+                  <a href="os.html"> 
                   <i class="icon-osx"></i >  
                   Operating Systems</a>
 
@@ -123,7 +124,7 @@
         <div class="thumbnail">
           <img src="assets/books/prog_lang/js.jpg" style="width: 300px; height: 250px;" data-src="holder.js/300x200" alt="300x250">
           <div class="caption">
-            <h3>Thumbnail label</h3>
+            <h3>Scope & Closures</h3>
             <div class="rateit" data-rateit-value="2.5" data-rateit-ispreset="true" data-rateit-readonly="true"></div>
           </div>
         </div>
@@ -134,7 +135,7 @@
            
           <div class="caption">
           <div id="default-demo"></div>
-            <h3>Thumbnail label</h3>
+            <h3>Lex & Yacc</h3>
             <div class="rateit" data-rateit-value="2.5" data-rateit-ispreset="true" data-rateit-readonly="true"></div>
             
           </div>
@@ -144,7 +145,7 @@
         <div class="thumbnail">
           <img src="assets/books/no_cover.jpg" style="width: 300px; height: 250px;" data-src="holder.js/300x200" alt="300x200">
           <div class="caption">
-            <h3>Thumbnail label</h3>
+            <h3>Net Bsd</h3>
           <div class="rateit" data-rateit-value="2.5" data-rateit-ispreset="true" data-rateit-readonly="true"></div>
           </div>
         </div>
@@ -154,7 +155,7 @@
         <div class="thumbnail">
           <img src="assets/books/prog_lang/python.jpg" style="width: 300px; height: 250px;" data-src="holder.js/300x200" alt="300x200">
           <div class="caption">
-            <h3>Thumbnail label</h3>
+            <h3>Intermediate Python</h3>
             <div class="rateit" data-rateit-value="2.5" data-rateit-ispreset="true" data-rateit-readonly="true"></div>
           </div>
         </div>
