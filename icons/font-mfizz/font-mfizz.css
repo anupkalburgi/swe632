@@ -128,7 +128,8 @@
   -webkit-font-smoothing: antialiased;
   display: inline-block;
   text-decoration: inherit;
-  padding-right: 8px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .icon-microscope:before { content: "\f100"; }

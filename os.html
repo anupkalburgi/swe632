@@ -36,32 +36,35 @@
                     <img src="assets/oie_transparent.png">
                 </a>
          
-         <ul class="nav navbar-nav">
-              <li>
-                  <a href="#sec1"> 
-                  <i class="step icon-osx size-20"></i >  </a>
-                </li>
-          </ul>
-         
-          <li>
-            <div class = "navbar nav-center">
-            <form class="search" method="post" action="index.html" >
-              <input type="text" name="q" placeholder="Search..." />
-                 <ul class="results" >
-                <li><a href="index.html">Search Result #1<br /><span>Description...</span></a></li>
-                <li><a href="index.html">Search Result #2<br /><span>Description...</span></a></li>
-                <li><a href="index.html">Search Result #3<br /><span>Description...</span></a></li>
-                <li><a href="index.html">Search Result #4</a></li>
+
+          <div class="dropdown navbar-right">
+          <a href="/" target="_blank">Help </a></li> &nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Anup Kalburgi <img class="img-circle" src="assets/profile.jpeg" /><b class="caret"></b></a>
+          <ul class="dropdown-menu">
+                
+    
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Profile</a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Logout</a></li>
+            </li>
+           </ul>
+        </div>
+
+          
+              <div class="navbar-collapse">
+                  <form class="search" method="post" action="index.html" >
+                  <input type="text" name="q" placeholder="Search..." />
+                  <ul class="results" >
+                  <li><a href="index.html">Search Result #1<br /><span>Description...</span></a></li>
+                  <li><a href="index.html">Search Result #2<br /><span>Description...</span></a></li>
+                  <li><a href="index.html">Search Result #3<br /><span>Description...</span></a></li>
+                  <li><a href="index.html">Search Result #4</a></li>
                   </ul>
             </form>
-            </div>
-          </li>
-
-
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="navbar-collapse navbar-ex1-collapse">
+           
 
             </div>
+
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
@@ -71,64 +74,34 @@
 
     <div class="container " >
       <div class="col-md-3 " id="sidebar">
-      <ul class="nav nav-stacked jumbo"  data-spy="affix" data-offset-top="10">
-      <li></li>
-                  <li ><a href="#sec0">
-                  <i class="icon-google-code"></i >
-                  Programming</a></li>
-                  <li>
-                  <a href="#sec1"> 
-                  <i class="icon-osx"></i >  
-                  Operating Systems</a>
+      <ul class="nav nav-stacked jumbo affix"  data-spy="affix-top" data-offset-top="10">
+                  <li></li>
+                  <li><a href="index.html"> <i class="icon-google-code"></i>Home
+                  </a></li>  
 
+                  <li ><a href="os.html"><i class="icon-debian"></i >Debian</a></li>
+                  <li class="active-side" ><a href="os.html"><i class="icon-redhat"></i > Redhat
+                  <span class="glyphicon glyphicon-chevron-right  pull-right"></span></a></li>
+                  <li ><a  href="#sec2"> <i class="icon-freebsd "></i>
+                   Free BSD
+                  </a>
                   </li>
-                  <li class="active-side">
-                   
-                   <a  href="#sec2"> <i class="icon-database-alt2 "></i>
-                   Databases 
-                  <span class="glyphicon glyphicon-chevron-right  pull-right"></span></a>
-                  </li>
-                  <li><a href="#sec3">
-                  <i class="icon-wireless"></i >
-                  Networking</a></li>
-
-
-                  <li><a href="#sec4">
-                  <i class="icon-mobile-device"></i >
-                  Mobile Devices</a></li>
-
-                  <li><a href="#sec3">
-                  <i class="icon-splatter"></i >
-                  Web Design & Development</a></li>
-                  <li><a href="#sec4">
-                  <i class="icon-3dprint"></i >
-                  Hardware</a></li>
-
-                  <li><a href="#sec3">
-                  <i class="icon-ghost"></i >
-                  Security & Encryption</a></li>
-
-
-                  <li><a href="#sec4">
-                  <i class="icon-satellite"></i >
-                  Game & Strategy Guides
-                  </a></li>
-
-
-                  <li><a href="#sec4">
-                  <i class="icon-line-graph"></i >
-                  Data Analysis & Visualization
-                  </a></li>
+                  <li><a href="os.html"><i class="icon-ubuntu"></i>Ubuntu</a></li>
+                  <li><a href="os.html"><i class="icon-linux-mint"></i >Linux Mint</a></li>
+                  <li><a href="os.html"><i class="icon-suse"></i >Suse</a></li>
+                  <li><a href="os.html"><i class="icon-centos"></i >Cent OS</a></li>
+                  <li><a href="os.html"><i class="icon-fedora"></i >Fedora</a></li>
+                  <li><a href="os.html"> <i class="icon-gnome"></i >Gnome</a></li>
+                  <li><a href="os.html"><i class="icon-line-graph"></i >&nbsp;Data Analysis & Visualization</a></li>
       </ul>
 
       </div>
     
-      <div class="col-md-9 myshadow2">
-
+<div class="col-md-9 myshadow2">
 <div class="row">
       <div class="col-sm-6 col-md-3">
         <div class="thumbnail">
-          <img src="assets/books/prog_lang/js.jpg" style="width: 300px; height: 250px;" data-src="holder.js/300x200" alt="300x250">
+          <img src="assets/books/prog_lang/js.jpg" style="width: 300px; height: 230px;" data-src="holder.js/300x200" alt="300x250">
           <div class="caption">
             <h3>Scope & Closures</h3>
             <div class="rateit" data-rateit-value="2.5" data-rateit-ispreset="true" data-rateit-readonly="true"></div>
@@ -137,29 +110,29 @@
       </div>
       <div class="col-sm-6 col-md-3">
         <div class="thumbnail">
-          <img src="assets/books/prog_lang/ly.jpg" style="width: 300px; height: 250px;"  data-src="holder.js/300x200" alt="300x200">
+          <img src="assets/books/prog_lang/ly.jpg" style="width: 300px; height: 230px;"  data-src="holder.js/300x200" alt="300x200">
            
           <div class="caption">
           <div id="default-demo"></div>
             <h3>Lex & Yacc</h3>
-            <div class="rateit" data-rateit-value="2.5" data-rateit-ispreset="true" data-rateit-readonly="true"></div>
+            <div class="rateit" data-rateit-value="3.5" data-rateit-ispreset="true" data-rateit-readonly="true"></div>
             
           </div>
         </div>
       </div>
       <div class="col-sm-6 col-md-3">
         <div class="thumbnail">
-          <img src="assets/books/no_cover.jpg" style="width: 300px; height: 250px;" data-src="holder.js/300x200" alt="300x200">
+          <img src="assets/books/net_sec/915.jpg" style="width: 300px; height: 230px;" data-src="holder.js/300x200" alt="300x200">
           <div class="caption">
-            <h3>Net Bsd</h3>
-          <div class="rateit" data-rateit-value="2.5" data-rateit-ispreset="true" data-rateit-readonly="true"></div>
+            <h3>Internet Crime</h3>
+          <div class="rateit" data-rateit-value="4.5" data-rateit-ispreset="true" data-rateit-readonly="true"></div>
           </div>
         </div>
       </div>
 
         <div class="col-sm-6 col-md-3">
         <div class="thumbnail">
-          <img src="assets/books/prog_lang/python.jpg" style="width: 300px; height: 250px;" data-src="holder.js/300x200" alt="300x200">
+          <img src="assets/books/prog_lang/python.jpg" style="width: 300px; height: 230px;" data-src="holder.js/300x200" alt="300x200">
           <div class="caption">
             <h3>Intermediate Python</h3>
             <div class="rateit" data-rateit-value="2.5" data-rateit-ispreset="true" data-rateit-readonly="true"></div>
@@ -167,48 +140,44 @@
         </div>
       </div>
 
-    </div> <!-- Row End -->
+</div> <!-- Row End -->
 
 <div class="row">
       <div class="col-sm-6 col-md-3">
         <div class="thumbnail">
-          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMjAwIj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjE1MCIgeT0iMTAwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjE5cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MzAweDIwMDwvdGV4dD48L3N2Zz4=" style="width: 300px; height: 200px;" data-src="holder.js/300x200" alt="300x200">
+          <img src="assets/books/design/3d.jpg" style="width: 300px; height: 230px;">
           <div class="caption">
-            <h3>Thumbnail label</h3>
+            <h3>3D Applications</h3>
             <div class="rateit" data-rateit-value="2.5" data-rateit-ispreset="true" data-rateit-readonly="true"></div>
-            <p>Cras justo odio, dapibus ac facilisis in,.</p>
           </div>
         </div>
       </div>
       <div class="col-sm-6 col-md-3">
         <div class="thumbnail">
-          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMjAwIj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjE1MCIgeT0iMTAwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjE5cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MzAweDIwMDwvdGV4dD48L3N2Zz4=" style="width: 300px; height: 200px;" data-src="holder.js/300x200" alt="300x200">
+          <img src="assets/books/mobile/1973.jpg" style="width: 300px; height: 230px;">
           <div class="caption">
-            <h3>Thumbnail label</h3>
-            <div class="rateit" data-rateit-value="2.5" data-rateit-ispreset="true" data-rateit-readonly="true"></div>
-            <p>Cras justo odio, dapibus ac facilisis in, </p>
+            <h3>iOS7</h3>
+            <div class="rateit" data-rateit-value="3.5" data-rateit-ispreset="true" data-rateit-readonly="true"></div>
             
           </div>
         </div>
       </div>
       <div class="col-sm-6 col-md-3">
         <div class="thumbnail">
-          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMjAwIj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjE1MCIgeT0iMTAwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjE5cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MzAweDIwMDwvdGV4dD48L3N2Zz4=" style="width: 300px; height: 200px;" data-src="holder.js/300x200" alt="300x200">
+          <img src="assets/books/net_sec/1433.jpg" style="width: 300px; height: 230px;">
           <div class="caption">
-            <h3>Thumbnail label</h3>
+            <h3>Make:</h3>
             <div class="rateit" data-rateit-value="2.5" data-rateit-ispreset="true" data-rateit-readonly="true"></div>
-            <p>Cras justo odio, dapibus ac facilisis in</p>
           </div>
         </div>
       </div>
 
         <div class="col-sm-6 col-md-3">
         <div class="thumbnail">
-          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMjAwIj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjE1MCIgeT0iMTAwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjE5cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MzAweDIwMDwvdGV4dD48L3N2Zz4=" style="width: 300px; height: 200px;" data-src="holder.js/300x200" alt="300x200">
+          <img src="assets/books/network/app_net.jpg" style="width: 300px; height: 230px;">
           <div class="caption">
-            <h3>Thumbnail label</h3>
-            <div class="rateit" data-rateit-value="2.5" data-rateit-ispreset="true" data-rateit-readonly="true"></div>
-            <p>Cras justo odio, dapibus ac facilisis in</p>
+            <h3>Network Security</h3>
+            <div class="rateit" data-rateit-value="1.5" data-rateit-ispreset="true" data-rateit-readonly="true"></div>
           </div>
         </div>
       </div>
