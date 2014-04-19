@@ -2225,7 +2225,7 @@ fieldset[disabled] .btn-info.active {
 .btn-warning.active,
 .open .dropdown-toggle.btn-warning {
   color: #fff;
-  background-color: #ed9c28;
+  background-color: ##F4A460;
   border-color: #d58512;
 }
 .btn-warning:active,
@@ -4454,6 +4454,58 @@ a.list-group-item.active > .badge,
 background: #F8F8F8;
 box-shadow: 8px 5px 15px #FFF inset; /*10px is horizontal offset, 5px is vertical offset, 15px is blur radius. black is shadow color and inset specifies that the shadow is drawn inside the box*/
 margin-bottom: 30px;
+}
+
+.summary {
+  display: block;
+  padding: 1px;
+  margin-bottom: 7px;
+  margin-left: 10px;
+  -webkit-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+}
+
+.summary h2{
+  margin-top: 20px;
+  color: #F4A460;
+  font-size: 22px;
+  padding-bottom: 20px;
+}
+
+.summary p {
+  text-align: left;
+  margin-left: 20px;
+  padding-top: 5px;
+}
+.summary p e {
+  text-align: left;
+  padding-left: 4px;
+  font-size: 10px;
+}
+
+.summary small{
+  font-size: 100%;
+  margin-left: 20px;
+}
+
+.summary em{
+    margin-top: 20px;
+
+}
+
+.summary img{
+  margin-left: 20px;
+
+}
+
+.summary b{
+  margin-left: 20px;
+
+}
+
+.summary button {
+  margin-top: 80px;
+  margin-left: 20px;
 }
 
 .nav.nav-center {
