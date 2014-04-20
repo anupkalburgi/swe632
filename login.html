@@ -1,0 +1,70 @@
+<html>
+<head>
+
+
+
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/login.css" rel="stylesheet">
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0-rc2/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+ $(function(){
+var textfield = $("input[name=user]");
+            $('button[type="submit"]').click(function(e) {
+                e.preventDefault();
+                //little validation just to check username
+                if (textfield.val() != "") {
+                    $("#output").addClass("alert alert-success animated fadeInUp").html("Welcome back " + "<span style='text-transform:uppercase'>" + textfield.val() + "</span>");
+                    $("#output").removeClass(' alert-danger');
+                    $("input").css({
+                    "height":"0",
+                    "padding":"0",
+                    "margin":"0",
+                    "opacity":"0"
+                    });
+                    //change button text 
+                    $('button[type="submit"]').html(" <a href=\"detail.html\">continue </a>")
+                    .removeClass("btn-info")
+                    .addClass("btn-default").click(function(){
+                        location.replace("detail.html");
+                    $("input").css({
+                    "height":"auto",
+                    "padding":"10px",
+                    "opacity":"1"
+                    }).val("");
+                    });
+                    
+                    //show avatar
+                    $(".avatar").css({
+                        "background-image": "url('http://2.gravatar.com/avatar/f8520fbb1a9e33f2030b9e6cb347b3eb')"
+                    });
+                } else {
+                    //remove success mesage replaced with error message
+                    $("#output").removeClass(' alert alert-success');
+                    $("#output").addClass("alert alert-danger animated fadeInUp").html("sorry enter a username ");
+                }
+                //console.log(textfield.val());
+
+            });
+});
+
+
+</script>
+</head>
+<body>
+<div class="container">
+	<div class="login-container">
+            <div id="output"></div>
+            <div class="avatar"></div>
+            <div class="form-box">
+                <form action="detail.html" method="">
+                    <input name="user" type="text" placeholder="username">
+                    <input type="password" placeholder="password">
+                    <button class="btn btn-info btn-block login" type="submit">Login</button>
+                </form>
+            </div>
+        </div>
+        
+</div>
+</body>
+</html>
