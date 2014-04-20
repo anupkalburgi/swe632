@@ -4553,6 +4553,26 @@ margin-bottom: 30px;
     width:70%;
 }
 
+.slide{
+  margin-top: 20px;
+}
+
+.col-xs-8 slide   {
+  margin-top: 20px;
+  margin-left: -10px;
+}
+
+.col-xs-6 p{
+  color: #F4A460;
+  font-size: 22px;
+  padding-bottom: 5px;
+
+}
+.incheck{
+  padding-left: 50px;
+}
+
+
 
 .jumbotron h1,
 .jumbotron .h1 {
