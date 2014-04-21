@@ -1,0 +1,34 @@
+Interface AIM:
+-------------
+The user interface is primirly designed keeping novice and intermediate users with some computer science background in mind.
+The UI mainly uses users visual understandin/mapping of subject as primary mode to communicate most of the information. Which enables faster performance for the user 
+
+User Profile:
+------------
+
+Targeted users?
+    1. Novice User 
+    2. Intermediate Users
+    3. Advanced uses
+
+        Should consider descriptions in terms of Syntatic, task semantic, Computer semantic 
+        Work Ex, Computer Expereince
+
+Interface Goals:
+---------------
+    Shniderman's Criteria
+    All features functionality 
+
+Interface Screen Design:
+-----------------------
+    Interactions details of the screen design and how they operate. 
+
+
+Features:
+--------
+    Thubnail Size 
+    Comments Readibility and Details display 
+    Navigation Bar under the top navigation
+    Books Relevence matrix, Software platform compatiblity display 
+
+
