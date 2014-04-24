@@ -1,3 +1,20 @@
+1. Interface AIM:
+        Explaining the AIM
+2. User Profile: 
+        Taget audience and how the interface elements cater to the respective category
+3. Interface Goals
+        Shniderman's Criteria and how they are taken care in the interface. All individually explained 
+4. Information about the rating system 
+        Why 5 star rating was chosen 
+        What different rating on the site mean. 
+5. Interface Screen Design: 
+        What are different screens and what is the aim of that screen 
+        How are different elements supposed to work
+6. Features:
+    Once that were planned and implemented
+    once that was planned and dropped 
+    Once that were planned and was not implemented. 
+
 Interface AIM:
 -------------
 The user interface is primirly designed keeping novice and intermediate users with some computer science background in mind.
@@ -16,8 +33,42 @@ Targeted users?
 
 Interface Goals:
 ---------------
+
+    Time to learn -2
+    Speed of performance -1
+    Rate of user errors -3
+    Retention of skills -4
+    Subjective satisfaction -5 
+
     Shniderman's Criteria
+    1. Time to Learn: Interface minimizes time to learn by. 
+        * The default browser behaviour is maintained, Like, on hover over clickable elements the pointer shape changes thus letting the user know that it is a clickable element. Hyper links turn blue, maintaining consistency with default behaviour.
+        * Approximately 7+/- Elements, less no of things for a user to parser and understand
+    2. Speed Of Performance: 
+        Often Conflicts with time to learn, faster systems are harder to learn. 
+
+    3. Rate of user Error:
+        Consistency
+        instructions
+        Logical arrangements of the screen. 
+        Importnace:
+
+    4. Retention Of Skills:
+        User Systax, Matching user understanding 
+    5. Subjective Satisfication:
+        individual taste 
+        Matching backgroud 
+
+
     All features functionality 
+
+
+Rating System:
+Star rating system 
+Rating System values and there meaning
+Semantic:
+What do various ratings mean 
+
 
 Interface Screen Design:
 -----------------------

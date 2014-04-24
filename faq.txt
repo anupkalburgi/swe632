@@ -1,0 +1,38 @@
+Aim: A platform for users to rate and review books. Ratings based on number os code snippets, relevence of technlogy and depth of the subject matter. 
+What is this site about?
+	1. This site lets you rate and write reviews on books related to computer scince and technology 
+	2. Read other users reviews 
+
+
+What does one need to know to use this site?
+This site was built for 
+	 1. People with some computer scince background. 
+	 2. Who have a idea regarding what they are searching for, unlike google
+
+
+How a book is decided if its for biginner , Idetermediate or Advanced Levels?
+	Depth of the subject matter covered in the text book is taken into consideration to decide the sutable level for the book.
+	0-40 	biginner,
+	40-70 	Intermediate
+	70-100	Advanced
+
+
+What books are placed on the home page?
+	The books with highest ratings gets featured on the home page. 
+
+
+What if you can't find a book on the site ?
+	Books addition on this is highly controlled as a lot of it will need categorization. If you want a book to be added to the site plase write to us at addbook@techbrs.com 
+
+
+Working of the side menu:
+	Side menu changes according to the pages you navigate. 
+		For Example if you choose Programming, you will be see new manu bottons presenting different programming languages, like Python, Java 
+
+How to change Password/User settings?
+	Click on the profile pic located on right of the search bar of any screen. 
+
+User Privicy?
+	Only the number of books you have read/reviewd will be shown. Name will be only usable if you wish to(Has not been implemented at, will be placed in the user profile page)
+
+
