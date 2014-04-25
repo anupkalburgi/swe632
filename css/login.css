@@ -45,6 +45,12 @@ html,body{
 
 }
 
+
+.a {
+    color: #2A6496;
+    text-decoration: underline;
+}
+
 .login-container::after{
     top: 5px;
     z-index: -2;
